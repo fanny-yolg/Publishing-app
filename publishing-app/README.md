@@ -10,7 +10,7 @@
 
 Initial Main Branch
 
-# User API
+# USER API
 
 ## CREATE
 
@@ -70,7 +70,7 @@ Initial Main Branch
 ### Method POST (http://publishing-app.test/api/logout)
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -95,7 +95,7 @@ Initial Main Branch
 ### Method GET (http://publishing-app.test/api/user)
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -120,7 +120,7 @@ Initial Main Branch
 ### Method GET (http://publishing-app.test/api/user/{id})
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -146,7 +146,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -172,16 +172,15 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
-> "status": true <br>"message": "<success_msg>" <br>"data": "email": "<asset_email>" "name": "<asset_name>" 
+> name : <asset_name> <br>email: <asset_email>
 
 ### Response (200)
 
-> "token": "<your_token>"
-
+> "status": true <br>"message": "<success_msg>" <br>"data": "email": "<asset_email>" "name": "<asset_name>" 
 ### Response (400 - Bad Request)
 
 > "msg": "<error_msg>"
@@ -200,7 +199,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -226,7 +225,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -252,7 +251,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -278,7 +277,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -304,7 +303,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -330,7 +329,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -358,7 +357,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -384,7 +383,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -410,7 +409,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -436,7 +435,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
@@ -462,7 +461,7 @@ Initial Main Branch
 
 ### Request Header
 
-> "Authorization": "<Bearer your_token>"
+> Authorization: <Bearer your_token>
 
 ### Request Body
 
