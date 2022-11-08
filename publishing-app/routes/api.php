@@ -25,7 +25,7 @@ Route::post('/user', 'UsersController@store');
 Route::group(['middleware' => ['auth']], function () use ($router) {
     $router->group(['prefix'=>'post'], function () use ($router) {
         Route::get('/', 'PostsController@index');
-        Route::get('/with-comments/{with_comments?}', 'PostsController@GetPostList');
+        Route::get('/{with_comments?}', 'PostsController@GetPostList');
         Route::get('/{id}', 'PostsController@show');
         Route::post('/', 'PostsController@store');
         Route::put('/{id}', 'PostsController@update');
